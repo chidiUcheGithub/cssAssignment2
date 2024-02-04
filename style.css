@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+header, footer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #4a4a4a;
+}
+
+header p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #787878;
+}
+
+.verse, .chorus {
+    margin-bottom: 20px;
+}
+
+.verse p, .chorus p {
+    font-size: 18px;
+}
+
+.chorus p {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+    font-size: 20px;
+    color: #555;
+}
+
+footer p {
+    font-size: 14px;
+    color: #666;
+    
+    
+}
+footer {
+    border-top: solid thin;
+    height: 10vh;
+}
+.chorus, .verse {
+    border:solid thin ;
+    width: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-family: 'Averia Sans Libre', sans-serif;
+    background-color: #c6bcbc;
+}
