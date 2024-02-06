@@ -1,0 +1,55 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #cdb5da;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1, header h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #011204;
+}
+
+h2 {
+    font-family: 'Tahoma', sans-serif;
+    color: #333;
+}
+
+.verse, .chorus {
+    margin-bottom: 20px;
+}
+
+.verse p, .chorus p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.verse p {
+    font-weight: bold;
+    color: #011204;
+    font-family: fantasy;
+}
+
+/* Emphasizing the chorus */
+.chorus p {
+    font-weight: bold;
+    color: #7b1fa2;
+    font-family: cursive;
+}
+
+.last p {
+    font-weight: bold;
+    color: rgb(205, 13, 13);
+    font-family: unset;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
